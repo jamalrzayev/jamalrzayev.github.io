@@ -35,19 +35,19 @@ $(document).ready(function(){
 
 // php mailer
 
-    $('form').submit(function(e) {
-        e.preventDefault();
-        $.ajax({
-            type: "POST",
-            url:"mailer/smart.php",
-            data:$(this).serialize()
-        }).done(function() {
-            $(this).find("input").val("");
-            $('.modal__overlay, #thanx').fadeIn('slow');
-            $('form').trigger('reset');
-        });
-        return false;
-    });
+    // $('form').submit(function(e) {
+    //     e.preventDefault();
+    //     $.ajax({
+    //         type: "POST",
+    //         url:"mailer/smart.php",
+    //         data:$(this).serialize()
+    //     }).done(function() {
+    //         $(this).find("input").val("");
+    //         $('.modal__overlay, #thanx').fadeIn('slow');
+    //         $('form').trigger('reset');
+    //     });
+    //     return false;
+    // });
 
 // smooth scroll and pageup
     

@@ -34,6 +34,7 @@ $(document).ready(function(){
     });
 
 // php mailer
+// in case if phpmailer is implemented
 
     // $('form').submit(function(e) {
     //     e.preventDefault();
